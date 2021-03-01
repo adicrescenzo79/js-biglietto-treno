@@ -1,0 +1,25 @@
+body{
+  height: 100vh;
+  font-family: 'Comfortaa', cursive;
+  background-image: url(https://wallpaperaccess.com/full/2024268.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.biglietto{
+  min-width: 300px;
+  min-height: 150px;
+  width: calc(100vw / 2);
+  height: calc(100vw / 5);
+  border: 5px solid #ccff00;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 20px #ccff00;
+  color: #fff;
+}
