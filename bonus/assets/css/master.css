@@ -4,7 +4,6 @@ body{
   background-image: url(../img/wall.jpg);
   background-position: center;
   background-size: cover;
-  color: #fff;
 
   display: flex;
   flex-direction: column;
@@ -24,9 +23,10 @@ body{
   position: relative;
   margin-right: 1vw;
   margin-bottom: 1vw;
-  border: 1px solid black;
+  border: 10px solid black;
   border-radius: 10px;
   overflow: hidden;
+
 }
 
 .biglietto img{
@@ -34,9 +34,25 @@ body{
   height: calc(100vw / 3);
 }
 
-#prezzo{
+.tratta-prezzo{
   position: absolute;
-  top: 0;
-  right: 0;
-  color: #000;
+  top: 11%;
+  /* right: 12%; */
+  font-size: 1.5vw;
+  font-weight: bolder;
+  width: 90%;
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.tratta-tempo{
+  position: absolute;
+  top: 32%;
+  font-size: 1.5vw;
+  font-weight: bolder;
+
+  display: flex;
+  justify-content: space-around;
 }

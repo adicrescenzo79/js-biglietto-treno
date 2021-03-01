@@ -21,3 +21,13 @@ if (eta < 18){
 } else {
   document.getElementById("prezzo").innerHTML = "€ " + (Math.round(intero * 100) / 100);
 }
+
+document.getElementById("km1").innerHTML = km + " km";
+
+document.getElementById("km2").innerHTML = km + " km";
+
+var tempo = Math.round(km / 1.67);
+
+console.log(tempo);
+
+document.getElementById("tempo").innerHTML = tempo + " minuti";
