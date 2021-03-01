@@ -13,9 +13,9 @@ body{
 
 .logo{
   width: calc(100vw / 3);
-  margin-top: 50px;
-  margin-left: 50px;
-  align-self: flex-start;
+  top: 1.5vw;
+  left: 1.5vw;
+  position: absolute;
 }
 
 
@@ -29,22 +29,23 @@ body{
 
 }
 
-.biglietto img{
-  min-height: 150px;
+.biglietto > img{
+  min-height: 300px;
   height: calc(100vw / 3);
 }
 
 .tratta-prezzo{
   position: absolute;
   top: 11%;
+
+  margin: 0 auto;
   /* right: 12%; */
   font-size: 1.5vw;
   font-weight: bolder;
-  width: 90%;
+  width: 100%;
 
   display: flex;
   justify-content: space-around;
-
 }
 
 .tratta-tempo{
@@ -52,7 +53,49 @@ body{
   top: 32%;
   font-size: 1.5vw;
   font-weight: bolder;
+  width: 100%;
+  margin: 0 auto;
 
   display: flex;
   justify-content: space-around;
+}
+
+.eta{
+  position: absolute;
+  top: 46.5%;
+  right: 3%;
+  width: 95%;
+  height: 2.5vw;
+  margin: 0 auto;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.eta img{
+  height: 100%;
+}
+
+.adult,
+.young,
+.over65{
+  width: calc(100% / 3);
+  text-transform: capitalize;
+  font-size: 1.5vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nome{
+  position: absolute;
+  top: 65%;
+  left: 3%;
+  width: 95%;
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
