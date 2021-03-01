@@ -1,25 +1,42 @@
 body{
   height: 100vh;
-  font-family: 'Comfortaa', cursive;
-  background-image: url(https://wallpaperaccess.com/full/2024268.jpg);
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../img/wall.jpg);
   background-position: center;
   background-size: cover;
   color: #fff;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
+.logo{
+  width: calc(100vw / 3);
+  margin-top: 50px;
+  margin-left: 50px;
+  align-self: flex-start;
+}
+
+
 .biglietto{
-  min-width: 300px;
-  min-height: 150px;
-  width: calc(100vw / 2);
-  height: calc(100vw / 5);
-  border: 5px solid #ccff00;
-  background-color: #000;
+  position: relative;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+  border: 1px solid black;
   border-radius: 10px;
-  box-shadow: 0px 0px 30px 20px #ccff00;
-  color: #fff;
+  overflow: hidden;
+}
+
+.biglietto img{
+  min-height: 150px;
+  height: calc(100vw / 3);
+}
+
+#prezzo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #000;
 }
